@@ -1,0 +1,12 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+
+<div class="text-box">
+    <h1 class="heading-primary">
+        <span class="heading-primary-main">Hello {{ title }}!</span>
+        <span class="heading-primary-sub">{{ cal }}</span>
+    </h1>
+</div>
+
+<div class="footer">Source code: <a href="https://github.com">GitHub</a></div>
